@@ -45,3 +45,23 @@ python -m itsupportbot.ingest
 ```
 python -m uvicorn fastapi_app:app --reload --host 127.0.0.1 --port 8080
 ```
+
+7. Queries and their responses. 
+```
+How do I reset my password? 
+"To reset your password, click on 'Forgot Password' at the login screen. You will then receive a reset link via email to change your password"
+
+Where can I generate an API key? 
+"You can generate an API key in your Account Settings under Developer Tools. Remember to keep your key secret for security purposes."
+
+What is the daily API limit for free accounts?
+"You can generate an API key in your Account Settings under Developer Tools. Make sure to keep your key secret to maintain security"
+
+I cannot log into my account, what should I do?
+"If you are unable to log into your account, you can try the following steps based on the issue you are facing: 1. If you are having trouble accessing your account, you can use the 'Recover Account' option. This may require verification via email or 2FA. 2. If your account is locked after 5 failed login attempts, you can wait for 15 minutes before attempting to log in again or reset your password to regain access. 3. If you are experiencing login issues with Single Sign-On, it is recommended to contact your corporate IT administrator for assistance."
+
+My password stopped working suddenly.
+"It sounds like your password may have expired. Corporate accounts require password changes every 90 days. Please reset your password using the 'Forgot Password' option. You should receive a reset link via email to create a new password. Let me know if you need any further assistance."
+```
+
+
