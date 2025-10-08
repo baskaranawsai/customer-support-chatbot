@@ -23,7 +23,7 @@ To set up the Customer Support Chatbot locally, follow these steps:
 
 2. Navigate to the project directory:
 ```
-   cd futurice
+   cd customer-support-chatbot
 ```
 
 3. Install the required Python packages using uv pip:
@@ -34,7 +34,7 @@ uv pip install -r requirements.txt
 4. Set up environment variables:
 - Create a .env file in the project directory.
 - Configure AstraDB vector store.
-- Define the necessary environment variables such as database connection strings, API keys, etc.
+- Define the necessary API keys, AstrDB connection details as defined in .env.copy file.
   
 5. Ingest data for the first time.
 ```
